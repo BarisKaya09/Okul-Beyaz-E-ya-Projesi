@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes domLoading {
+  from {
+    transform: translateY(250px);
+    opacity: 0.3;
+    -webkit-transform: translateY(250px);
+    -moz-transform: translateY(250px);
+    -ms-transform: translateY(250px);
+    -o-transform: translateY(250px);
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes navLinks {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
